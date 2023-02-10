@@ -49,9 +49,11 @@ const Blog = (props) => {
           </div>
         </div>
       </div>
-      <h1 className="blog-heading">Heading</h1>
       <Link to="/" className="blog-navlink">
         <h1 className="blog-text3">Back Home</h1>
+      </Link>
+      <Link to="/old-blogs" className="blog-navlink1">
+        <h1 className="blog-text4">Old Blogs</h1>
       </Link>
     </div>
   )

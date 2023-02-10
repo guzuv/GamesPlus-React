@@ -75,14 +75,18 @@
   font-weight: 600;
   margin-left: var(--dl-space-space-halfunit);
 }
-.blog-heading {
-  align-self: flex-end;
-}
 .blog-navlink {
   display: contents;
 }
 .blog-text3 {
   align-self: flex-start;
+  text-decoration: none;
+}
+.blog-navlink1 {
+  display: contents;
+}
+.blog-text4 {
+  align-self: flex-end;
   text-decoration: none;
 }
 @media(max-width: 991px) {
