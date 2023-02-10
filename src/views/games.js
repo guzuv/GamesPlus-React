@@ -55,7 +55,7 @@ const Games = (props) => {
             </div>
           </a>
           <a
-            href="https://omackenzie.github.io/Doodle-Jump-in-JS/"
+            href="https://guzuv.github.io/doodle-jump/"
             target="_blank"
             rel="noreferrer noopener"
           >
