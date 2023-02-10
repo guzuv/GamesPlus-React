@@ -224,6 +224,12 @@
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius4);
 }
+.games-navlink {
+  display: contents;
+}
+.games-text09 {
+  text-decoration: none;
+}
 @media(max-width: 991px) {
   .games-text {
     align-self: center;

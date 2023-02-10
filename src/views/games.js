@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -140,12 +141,14 @@ const Games = (props) => {
           </a>
         </div>
       </div>
-      <h1>
-        <span> MORE GAMES</span>
-        <br></br>
-        <span>COMING SOON</span>
-        <br></br>
-      </h1>
+      <Link to="/coming-soon-games" className="games-navlink">
+        <h1 className="games-text09">
+          <span> MORE GAMES</span>
+          <br></br>
+          <span>COMING SOON</span>
+          <br></br>
+        </h1>
+      </Link>
     </div>
   )
 }
