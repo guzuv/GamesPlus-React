@@ -73,12 +73,13 @@
   margin-bottom: var(--dl-space-space-halfunit);
   text-transform: uppercase;
 }
-.partners-text1 {
+.partners-link {
   font-size: 1.5rem;
   font-weight: 300;
   margin-bottom: var(--dl-space-space-twounits);
+  text-decoration: none;
 }
-.partners-text2 {
+.partners-text1 {
   color: var(--dl-color-gray-500);
   font-weight: 400;
   margin-bottom: var(--dl-space-space-twounits);
@@ -102,7 +103,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.partners-text3 {
+.partners-text2 {
   font-weight: 300;
   margin-left: var(--dl-space-space-halfunit);
 }

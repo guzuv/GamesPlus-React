@@ -208,14 +208,9 @@ const Home = (props) => {
               <Link to="/blog" className="home-link09">
                 Blog
               </Link>
-              <a
-                href="https://guzuv.ml"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="home-link10"
-              >
+              <Link to="/partners" className="home-link10">
                 Partners
-              </a>
+              </Link>
             </div>
           </div>
         </div>

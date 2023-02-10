@@ -36,14 +36,21 @@ const Partners = (props) => {
             />
             <div className="partners-container3">
               <span className="partners-text">THANK-YOU</span>
-              <span className="partners-text1">guzuv.ml</span>
-              <span className="partners-text2">
+              <a
+                href="https://guzuv.ml"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="partners-link"
+              >
+                guzuv.ml
+              </a>
+              <span className="partners-text1">
                 We thank  guzuv.ml so much for teaching us and helping us get to
                 the point we are today. Also thank-you for getting our domain!
               </span>
               <div className="partners-container4">
                 <div className="partners-profile">
-                  <span className="partners-text3">GamesPlus</span>
+                  <span className="partners-text2">GamesPlus</span>
                 </div>
               </div>
             </div>
