@@ -27,7 +27,7 @@ const Games = (props) => {
         <h1 className="games-text">Games</h1>
         <div className="games-container1">
           <a
-            href="https://28klotlucas2.github.io/Mario64webgl/"
+            href="https://guzuv.github.io/Mario64webgl/"
             target="_blank"
             rel="noreferrer noopener"
           >
