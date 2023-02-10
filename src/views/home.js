@@ -41,9 +41,9 @@ const Home = (props) => {
             >
               <div id="Hotbar top" className="home-right">
                 <div className="home-links">
-                  <a href="#Game" className="home-link navLink">
-                    Games
-                  </a>
+                  <Link to="/partners" className="home-link navLink">
+                    GUZUV
+                  </Link>
                   <Link to="/blog" className="home-link01 navLink">
                     Blog
                   </Link>
