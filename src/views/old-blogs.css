@@ -75,8 +75,12 @@
   font-weight: 600;
   margin-left: var(--dl-space-space-halfunit);
 }
+.old-blogs-navlink {
+  display: contents;
+}
 .old-blogs-text3 {
   align-self: flex-start;
+  text-decoration: none;
 }
 @media(max-width: 991px) {
   .old-blogs-blog-post-card {

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -50,7 +51,9 @@ const OldBlogs = (props) => {
           </div>
         </div>
       </div>
-      <h1 className="old-blogs-text3">Back Home</h1>
+      <Link to="/" className="old-blogs-navlink">
+        <h1 className="old-blogs-text3">Back Home</h1>
+      </Link>
     </div>
   )
 }
