@@ -523,6 +523,26 @@
 .home-link10:hover {
   opacity: 0.7;
 }
+.home-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-text15 {
+  color: #f30000;
+}
+.home-link11 {
+  display: contents;
+}
+.home-icon2 {
+  width: auto;
+  height: 24px;
+  align-self: center;
+  text-decoration: none;
+}
 .home-socials {
   gap: var(--dl-space-space-twounits);
   display: none;
