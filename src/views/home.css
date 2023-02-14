@@ -21,7 +21,7 @@
   padding-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: row;
   justify-content: space-between;
-  background-color: #787c75;
+  background-color: #eb09aa;
 }
 .home-branding {
   flex: 1;
@@ -87,7 +87,7 @@
   padding-right: var(--dl-space-space-oneandhalfunits);
   padding-bottom: var(--dl-space-space-unit);
   text-decoration: none;
-  background-color: #8fff00;
+  background-color: #ffffff;
 }
 .home-work-with-us:hover {
   opacity: 0.5;
@@ -222,7 +222,7 @@
   padding-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: column;
   padding-bottom: 160px;
-  background-color: #c9e500;
+  background-color: #e500ab;
 }
 .home-header {
   gap: var(--dl-space-space-twounits);
@@ -269,7 +269,7 @@
   padding-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: column;
   padding-bottom: 320px;
-  background-color: #c9e500;
+  background-color: #e500ab;
 }
 .home-header1 {
   gap: var(--dl-space-space-threeunits);
@@ -342,7 +342,7 @@
   padding-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: column;
   padding-bottom: 140px;
-  background-color: #c9e500;
+  background-color: #e500ab;
   border-top-width: 1px;
 }
 .home-purpose {
@@ -377,7 +377,7 @@
   padding-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-fiveunits);
-  background-color: #E5FE58;
+  background-color: #e500ab;
 }
 .home-content {
   width: 100%;
