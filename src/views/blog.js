@@ -26,17 +26,14 @@ const Blog = (props) => {
       </Helmet>
       <div className="blog-blog-post-card">
         <img
-          src="https://media2.giphy.com/media/148uKQMc4lfulq/giphy.gif"
+          src="https://play.teleporthq.io/static/svg/default-img.svg"
           image_src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&amp;ixlib=rb-1.2.1&amp;h=1000"
           className="blog-image"
         />
         <div className="blog-container1">
           <div className="blog-container2"></div>
-          <h1 className="blog-text">Happy Valentine!</h1>
-          <span className="blog-text1">
-            Happy valentines day everyone hope you ask that special someone out
-            ;). Or enjoy your self but remember to stay safe and have fun! 
-          </span>
+          <h1 className="blog-text">...</h1>
+          <span className="blog-text1">...</span>
           <div className="blog-container3">
             <div className="blog-profile">
               <img

@@ -21,7 +21,7 @@
   padding-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: row;
   justify-content: space-between;
-  background-color: #eb09aa;
+  background-color: #d9eb09;
 }
 .home-branding {
   flex: 1;
@@ -222,7 +222,7 @@
   padding-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: column;
   padding-bottom: 160px;
-  background-color: #e500ab;
+  background-color: #D9EB09;
 }
 .home-header {
   gap: var(--dl-space-space-twounits);
@@ -269,7 +269,7 @@
   padding-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: column;
   padding-bottom: 320px;
-  background-color: #e500ab;
+  background-color: #D9EB09;
 }
 .home-header1 {
   gap: var(--dl-space-space-threeunits);
@@ -342,7 +342,7 @@
   padding-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: column;
   padding-bottom: 140px;
-  background-color: #e500ab;
+  background-color: #D9EB09;
   border-top-width: 1px;
 }
 .home-purpose {
@@ -377,7 +377,7 @@
   padding-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-fiveunits);
-  background-color: #e500ab;
+  background-color: #D9EB09;
 }
 .home-content {
   width: 100%;

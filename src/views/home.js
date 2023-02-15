@@ -27,7 +27,7 @@ const Home = (props) => {
       <div className="home-navbar">
         <header data-thq="thq-navbar" className="home-navbar-interactive">
           <div className="home-branding">
-            <span className="home-text">HAPPY VALENTINES DAY!!!!</span>
+            <span className="home-text">GamesPlus</span>
           </div>
           <div
             data-thq="thq-navbar-nav"
