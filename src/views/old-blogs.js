@@ -76,7 +76,7 @@ const OldBlogs = (props) => {
             <div className="old-blogs-profile1">
               <img
                 alt="profile"
-                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&amp;ixlib=rb-1.2.1&amp;h=1200"
+                src="/playground_assets/study%20%235-200w.png"
                 className="old-blogs-image3"
               />
               <span className="old-blogs-text10">
@@ -84,7 +84,6 @@ const OldBlogs = (props) => {
                 <br></br>
               </span>
             </div>
-            <span className="old-blogs-text13">Read More -&gt;</span>
           </div>
         </div>
       </div>

@@ -151,11 +151,6 @@
   font-weight: 600;
   margin-left: var(--dl-space-space-halfunit);
 }
-.old-blogs-text13 {
-  color: var(--dl-color-gray-black);
-  font-style: normal;
-  font-weight: 500;
-}
 @media(max-width: 991px) {
   .old-blogs-blog-post-card {
     flex-direction: row;
@@ -188,8 +183,5 @@
   .old-blogs-container6 {
     padding-left: 0px;
     padding-right: 0px;
-  }
-  .old-blogs-text13 {
-    width: auto;
   }
 }
