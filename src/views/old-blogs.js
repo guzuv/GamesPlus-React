@@ -21,7 +21,7 @@ const OldBlogs = (props) => {
         />
         <meta
           property="og:image"
-          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/322a8992-814f-4e72-aea2-3fcffc1eefec/b3613c49-f16f-4ab4-9fcf-10f964b4b0d0?org_if_sml=1"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/322a8992-814f-4e72-aea2-3fcffc1eefec/3d535b5f-2979-46da-8a77-c90cb36e9c4d?org_if_sml=1"
         />
       </Helmet>
       <div className="old-blogs-blog-post-card">
@@ -31,15 +31,15 @@ const OldBlogs = (props) => {
           image_src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&amp;ixlib=rb-1.2.1&amp;h=1000"
           className="old-blogs-image"
         />
-        <div className="old-blogs-container1">
-          <div className="old-blogs-container2"></div>
+        <div className="old-blogs-container01">
+          <div className="old-blogs-container02"></div>
           <h1 className="old-blogs-text">Happy New Year</h1>
           <span className="old-blogs-text01">
             Happy new year to you all. Over the time of this new year GamesPlus
             has had a major update where now we only have retro games. We hope
             you had a happy and safe new years with people you love!
           </span>
-          <div className="old-blogs-container3">
+          <div className="old-blogs-container03">
             <div className="old-blogs-profile">
               <img
                 alt="profile"
@@ -51,9 +51,6 @@ const OldBlogs = (props) => {
           </div>
         </div>
       </div>
-      <Link to="/" className="old-blogs-navlink">
-        <h1 className="old-blogs-text03">Back Home</h1>
-      </Link>
       <div className="old-blogs-blog-post-card1">
         <img
           alt="image"
@@ -61,10 +58,10 @@ const OldBlogs = (props) => {
           image_src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&amp;ixlib=rb-1.2.1&amp;h=1000"
           className="old-blogs-image2"
         />
-        <div className="old-blogs-container4">
-          <div className="old-blogs-container5"></div>
-          <h1 className="old-blogs-text04">Happy Valentines day!</h1>
-          <span className="old-blogs-text05">
+        <div className="old-blogs-container04">
+          <div className="old-blogs-container05"></div>
+          <h1 className="old-blogs-text03">Happy Valentines day!</h1>
+          <span className="old-blogs-text04">
             <span>
               I hope you ask that special someone out this valentines day ;)!
             </span>
@@ -72,14 +69,14 @@ const OldBlogs = (props) => {
             <span>And remember to stay safe and happy!</span>
             <br></br>
           </span>
-          <div className="old-blogs-container6">
+          <div className="old-blogs-container06">
             <div className="old-blogs-profile1">
               <img
                 alt="profile"
-                src="/playground_assets/study%20%235-200w.png"
+                src="/playground_assets/study%20%235-1400w.png"
                 className="old-blogs-image3"
               />
-              <span className="old-blogs-text10">
+              <span className="old-blogs-text09">
                 <span>Games Plus</span>
                 <br></br>
               </span>
@@ -87,6 +84,38 @@ const OldBlogs = (props) => {
           </div>
         </div>
       </div>
+      <div className="old-blogs-blog-post-card2">
+        <img
+          alt="image"
+          src="/playground_assets/study%20%235-1400w.png"
+          image_src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&amp;ixlib=rb-1.2.1&amp;h=1000"
+          className="old-blogs-image4"
+        />
+        <div className="old-blogs-container07">
+          <div className="old-blogs-container08"></div>
+          <div className="old-blogs-container09">
+            <h1 className="old-blogs-text12">GamesPlus Supports</h1>
+            <span className="old-blogs-text13">
+              Black history month is for celebrating the amazing things black
+              people did form the past to this date. 
+            </span>
+          </div>
+          <div className="old-blogs-container10">
+            <div className="old-blogs-profile2">
+              <img
+                alt="profile"
+                src="/playground_assets/computer.svg"
+                className="old-blogs-image5"
+              />
+              <span className="old-blogs-text14">Games Plus</span>
+            </div>
+            <span className="old-blogs-text15">Read More -&gt;</span>
+          </div>
+        </div>
+      </div>
+      <Link to="/" className="old-blogs-navlink">
+        <h1 className="old-blogs-text16">Back Home</h1>
+      </Link>
     </div>
   )
 }
