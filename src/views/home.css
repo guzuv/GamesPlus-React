@@ -110,12 +110,10 @@
   justify-content: space-between;
 }
 .home-nav1 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-}
-.home-text02 {
-  margin-bottom: var(--dl-space-space-threeunits);
 }
 .home-burger-menu {
   display: none;
@@ -135,7 +133,7 @@
 .home-work-with-us1:hover {
   opacity: 0.5;
 }
-.home-text07 {
+.home-text02 {
   display: flex;
   font-size: 24px;
 }
@@ -181,7 +179,7 @@
   justify-content: flex-start;
   border-bottom-width: 1px;
 }
-.home-text08 {
+.home-text03 {
   color: #27272D;
   font-size: 30px;
   font-family: Inter;
@@ -223,7 +221,7 @@
 .home-work-with-us2:hover {
   opacity: 0.5;
 }
-.home-text09 {
+.home-text04 {
   display: flex;
   font-size: 24px;
 }
@@ -247,7 +245,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text10 {
+.home-text05 {
   color: rgb(39, 39, 45);
   width: 100%;
   font-size: 54px;
@@ -301,11 +299,11 @@
   display: flex;
   flex-direction: column;
 }
-.home-text11 {
+.home-text06 {
   width: 100%;
   max-width: 800px;
 }
-.home-text12 {
+.home-text07 {
   color: rgb(39, 39, 45);
   width: 100%;
   font-size: 24px;
@@ -378,10 +376,10 @@
   max-width: 900px;
   line-height: 54px;
 }
-.home-text13 {
+.home-text08 {
   color: #27272d;
 }
-.home-text14 {
+.home-text09 {
   color: #0000ff;
 }
 .home-book {
@@ -410,7 +408,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text16 {
+.home-text11 {
   font-size: 54px;
   font-weight: initial;
   line-height: 65px;
@@ -547,7 +545,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text20 {
+.home-text15 {
   color: #f30000;
 }
 .home-link11 {
@@ -574,10 +572,10 @@
   .home-text01 {
     line-height: 30px;
   }
-  .home-text07 {
+  .home-text02 {
     line-height: 30px;
   }
-  .home-text09 {
+  .home-text04 {
     line-height: 30px;
   }
   .home-hero {
@@ -585,7 +583,7 @@
     padding-top: var(--dl-space-space-threeunits);
     padding-bottom: var(--dl-space-space-threeunits);
   }
-  .home-text10 {
+  .home-text05 {
     font-size: 32px;
   }
   .home-hero-image {
@@ -607,7 +605,7 @@
   .home-heading {
     gap: var(--dl-space-space-unit);
   }
-  .home-text12 {
+  .home-text07 {
     font-size: 16px;
     line-height: 28px;
   }
@@ -657,12 +655,12 @@
     gap: var(--dl-space-space-oneandhalfunits);
     align-items: center;
   }
-  .home-text16 {
+  .home-text11 {
     font-size: 32px;
     text-align: center;
     line-height: 38px;
   }
-  .home-text19 {
+  .home-text14 {
     font-size: 16px;
   }
   .home-image03 {
@@ -750,7 +748,7 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .home-text07 {
+  .home-text02 {
     display: none;
   }
   .home-image01 {
