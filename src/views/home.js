@@ -61,12 +61,25 @@ const Home = (props) => {
                     />
                   </Link>
                 </div>
+                <div className="home-sidebar">
+                  <nav className="home-nav1">
+                    <span className="home-text02">
+                      <span>Question!</span>
+                      <br></br>
+                      <span>
+                        Should we add  more modern games if so use the feed back
+                        or email us @ helpline@gameplus
+                      </span>
+                      <br></br>
+                    </span>
+                  </nav>
+                </div>
               </div>
             </nav>
           </div>
           <div data-thq="thq-burger-menu" className="home-burger-menu">
             <button className="home-work-with-us1 button">
-              <span className="home-text02">work with us</span>
+              <span className="home-text07">work with us</span>
               <img
                 alt="image"
                 src="/playground_assets/hamburger.svg"
@@ -78,11 +91,11 @@ const Home = (props) => {
             <div
               data-thq="thq-mobile-menu-nav"
               data-role="Nav"
-              className="home-nav1"
+              className="home-nav2"
             >
               <div className="home-top">
                 <div className="home-branding1">
-                  <span className="home-text03">hola studio</span>
+                  <span className="home-text08">hola studio</span>
                 </div>
                 <div data-thq="thq-close-menu" className="home-menu-close">
                   <svg viewBox="0 0 1024 1024" className="home-icon">
@@ -101,7 +114,7 @@ const Home = (props) => {
                   <span className="navLink">contact</span>
                 </div>
                 <button className="home-work-with-us2 button">
-                  <span className="home-text04">work with us</span>
+                  <span className="home-text09">work with us</span>
                 </button>
               </nav>
             </div>
@@ -110,7 +123,7 @@ const Home = (props) => {
       </div>
       <div className="home-hero">
         <div className="home-header">
-          <h1 className="home-text05">
+          <h1 className="home-text10">
             A retro website for retro gamers or your kids to watch them suffer
             like you did!
           </h1>
@@ -126,10 +139,10 @@ const Home = (props) => {
       <div className="home-who">
         <div id="Game" className="home-header1">
           <div className="home-heading">
-            <h2 id="Better game" className="home-text06 Riesling1">
+            <h2 id="Better game" className="home-text11 Riesling1">
               Get Into The Retro World!
             </h2>
-            <span className="home-text07">
+            <span className="home-text12">
               GamesPlus has gone retro with our games!
             </span>
           </div>
@@ -147,7 +160,7 @@ const Home = (props) => {
         <div id="About" className="home-purpose">
           <span className="home-caption">What we do</span>
           <span className="home-description">
-            <span className="home-text08">
+            <span className="home-text13">
               We have tons of retro games for you to play! If you want a retro
               game please E-mail
               <span
@@ -156,7 +169,7 @@ const Home = (props) => {
                 }}
               />
             </span>
-            <span className="home-text09">
+            <span className="home-text14">
               helpline@gamesplus.ml
               <span
                 dangerouslySetInnerHTML={{
@@ -171,7 +184,7 @@ const Home = (props) => {
       <div id="Contact" className="home-book">
         <div className="home-content">
           <div className="home-left">
-            <h2 className="home-text11">
+            <h2 className="home-text16">
               <span>Ask us for any retro game here</span>
               <br></br>
             </h2>
@@ -179,7 +192,7 @@ const Home = (props) => {
               href="mailto:helpline@gamesplus.ml?subject=Add game!"
               className="home-link06 button"
             >
-              <span className="home-text14">Email</span>
+              <span className="home-text19">Email</span>
             </a>
           </div>
           <img
@@ -214,7 +227,7 @@ const Home = (props) => {
             </div>
           </div>
           <div className="home-container1">
-            <span className="home-text15">CHECK OUT MY YouTube!</span>
+            <span className="home-text20">CHECK OUT MY YouTube!</span>
             <a
               href="https://www.youtube.com/@bumblerumble7509"
               target="_blank"
