@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -23,12 +24,27 @@ const UPDATE = (props) => {
           content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/322a8992-814f-4e72-aea2-3fcffc1eefec/3d535b5f-2979-46da-8a77-c90cb36e9c4d?org_if_sml=1"
         />
       </Helmet>
-      <h1>
-        <span>         OUR WEBSITE IS HAVING A UPDATE</span>
-        <br></br>
-        <span>PLEASE BE PATIENT THANK-YOU IN ADVANCED</span>
-        <br></br>
-      </h1>
+      <div className="update-hero">
+        <div className="update-container1">
+          <h1 className="update-text">We are leaving soon.</h1>
+          <span className="update-text1">
+            A sad event is coming soon... Gamesplus.ml is shutting down. We are
+            very sad about this but from current events we can not put full
+            effort on this site. We are so sorry. Thank-you to all our
+            supporters.
+          </span>
+          <div className="update-btn-group">
+            <Link to="/games" className="update-navlink button">
+              Games for the last time :(
+            </Link>
+          </div>
+        </div>
+        <img
+          alt="image"
+          src="https://images.unsplash.com/photo-1525498128493-380d1990a112?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI0fHxtaW5pbWFsaXNtJTIwZ3JlZW58ZW58MHx8fHwxNjI1ODQxMDcw&amp;ixlib=rb-1.2.1&amp;h=1200"
+          className="update-image"
+        />
+      </div>
     </div>
   )
 }

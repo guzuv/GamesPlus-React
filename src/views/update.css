@@ -5,5 +5,97 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
   background-color: #92c0ff;
+}
+.update-hero {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: var(--dl-size-size-maxwidth);
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.update-container1 {
+  display: flex;
+  margin-right: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+}
+.update-text {
+  font-size: 3rem;
+  max-width: 450px;
+}
+.update-text1 {
+  margin-top: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.update-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.update-navlink {
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.update-navlink:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-black);
+}
+.update-image {
+  width: 400px;
+  object-fit: cover;
+}
+@media(max-width: 991px) {
+  .update-hero {
+    flex-direction: column;
+  }
+  .update-container1 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+    padding-right: 0px;
+  }
+  .update-text {
+    text-align: center;
+  }
+  .update-text1 {
+    text-align: center;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+  }
+}
+@media(max-width: 767px) {
+  .update-hero {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .update-text1 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .update-image {
+    width: 80%;
+  }
+}
+@media(max-width: 479px) {
+  .update-hero {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .update-container1 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .update-btn-group {
+    flex-direction: column;
+  }
 }

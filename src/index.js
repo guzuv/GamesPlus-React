@@ -3,25 +3,25 @@ import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import './style.css'
+import UPDATE from './views/update'
 import Blog from './views/blog'
 import Home from './views/home'
 import Games from './views/games'
 import OldBlogs from './views/old-blogs'
 import Partners from './views/partners'
 import ComingSoonGames from './views/coming-soon-games'
-import UPDATE from './views/update'
 
 const App = () => {
   return (
     <Router>
       <div>
+        <Route component={UPDATE} exact path="/update" />
         <Route component={Blog} exact path="/blog" />
         <Route component={Home} exact path="/" />
         <Route component={Games} exact path="/games" />
         <Route component={OldBlogs} exact path="/old-blogs" />
         <Route component={Partners} exact path="/partners" />
         <Route component={ComingSoonGames} exact path="/coming-soon-games" />
-        <Route component={UPDATE} exact path="/update" />
       </div>
     </Router>
   )
