@@ -41,7 +41,7 @@ const UPDATE = (props) => {
         </div>
         <img
           alt="image"
-          src="https://images.unsplash.com/photo-1525498128493-380d1990a112?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI0fHxtaW5pbWFsaXNtJTIwZ3JlZW58ZW58MHx8fHwxNjI1ODQxMDcw&amp;ixlib=rb-1.2.1&amp;h=1200"
+          src="/playground_assets/71uylyogvvl._ac_sl1500_-1100w.jpg"
           className="update-image"
         />
       </div>
